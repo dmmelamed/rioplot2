@@ -1,0 +1,13 @@
+Package: rioplot2
+Type: Package
+Title: Replication functions for Regression Inside Out (2024, Schoon, Melamed and Breiger)
+Version: 1.1.1
+Authors@R: c(person("David", "Melamed", role = c("aut", "cre"), email = "dmmelamed@gmail.com", comment = c(ORCID = "0000-0002-8821-7698")),person("Ronald L.", "Breiger", role = c("aut"), email = "ronald.breiger@gmail.com"),person("Eric W.", "Schoon", role = c("aut"), email = "schoon.1@osu.edu"))
+Maintainer: David Melamed <dmmelamed@gmail.com>
+Description: Helper functions to replicate results in Schoon, Melamed, and Breiger (2024) <doi:10.1017/9781108887205>.
+VignetteBuilder: knitr
+Depends: ggplot2, methods
+Suggests: dplyr, knitr
+License: GPL-2 | GPL-3
+Encoding: UTF-8
+LazyData: true
